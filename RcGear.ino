@@ -18,8 +18,8 @@
  * Pin 8 (PB0)      left motor ina2
  * Pin 9 (PB1)      left motor ina1
  * 
- * Pin 10 (PB2)      left motor inb2
- * Pin 11 (PB3)      left motor inb1
+ * Pin 10 (PB2)      right motor inb2
+ * Pin 11 (PB3)      right motor inb1
  */
  #include <Arduino.h>
  #include "Led.h"
@@ -42,7 +42,7 @@
 #define RX_CENTER 1500
 #define RX_RANGE   200
 
-#define DEBUG
+//#define DEBUG
 
 static Led  led(LED_PIN);
 static RcRx rx(RX_PIN);
