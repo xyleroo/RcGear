@@ -4,6 +4,7 @@ This is a small Arduino Pro mini sketch to control the left
 and right landing gear from one RC channel.
 Each gear has a upper and lower limit switch and
 a DC motor controlled by one half of a MX1508 H-bridge driver.
+Pictures and more info can be found at [xyleroo](https://www.xyleroo.de/rcgear.html)
 
 # Arudino Pins
 
